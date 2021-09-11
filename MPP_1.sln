@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPP_1", "MPP_1\MPP_1.csproj", "{750B6BDC-BE72-4506-8D75-F3C01EECB446}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracerLibrary", "TracerLibrary\TracerLibrary.csproj", "{750B6BDC-BE72-4506-8D75-F3C01EECB446}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
