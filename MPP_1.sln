@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPP_1", "MPP_1\MPP_1.csproj", "{750B6BDC-BE72-4506-8D75-F3C01EECB446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{750B6BDC-BE72-4506-8D75-F3C01EECB446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750B6BDC-BE72-4506-8D75-F3C01EECB446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750B6BDC-BE72-4506-8D75-F3C01EECB446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750B6BDC-BE72-4506-8D75-F3C01EECB446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
