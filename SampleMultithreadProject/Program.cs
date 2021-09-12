@@ -35,12 +35,11 @@ namespace SampleMultithreadProject
         {
             _tracer = new Tracer();
             MethodC();
-            Console.WriteLine(new XmlSerializer().Serialize(_tracer.GetTraceResult()));
             MethodB();
-            Thread thread = new Thread(MethodC);
+            var thread = new Thread(MethodC);
             thread.Start();
             Thread.Sleep(1000);
-            var result = _tracer.GetTraceResult();
+            new FilePrinter().Print(new XmlSerializer(), _tracer.GetTraceResult());
         }
     }
 }
