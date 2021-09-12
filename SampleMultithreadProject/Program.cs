@@ -23,13 +23,21 @@ namespace SampleMultithreadProject
             Thread.Sleep(300);
             _tracer.StopTrace();
         }
+
+        static void MethodC()
+        {
+            MethodB();
+            MethodA();
+        }
         
         
         static void Main(string[] args)
         {
             _tracer = new Tracer();
-            MethodA();
-            MethodB();
+            Thread thread = new Thread(MethodC);
+            thread.Start();
+            MethodC();
+            Thread.Sleep(1000);
             var result = _tracer.GetTraceResult();
         }
     }
