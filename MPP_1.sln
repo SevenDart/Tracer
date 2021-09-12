@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracerLibrary", "TracerLibrary\TracerLibrary.csproj", "{750B6BDC-BE72-4506-8D75-F3C01EECB446}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMultithreadProject", "SampleMultithreadProject\SampleMultithreadProject.csproj", "{8AB2A74C-75EC-4A6E-A9BE-1F6D088D2909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{750B6BDC-BE72-4506-8D75-F3C01EECB446}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{750B6BDC-BE72-4506-8D75-F3C01EECB446}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{750B6BDC-BE72-4506-8D75-F3C01EECB446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB2A74C-75EC-4A6E-A9BE-1F6D088D2909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB2A74C-75EC-4A6E-A9BE-1F6D088D2909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB2A74C-75EC-4A6E-A9BE-1F6D088D2909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB2A74C-75EC-4A6E-A9BE-1F6D088D2909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
