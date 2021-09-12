@@ -1,6 +1,6 @@
 ﻿using TracerLibrary.Structs;
 
-namespace MPP_1.Interfaces
+namespace TracerLibrary.Interfaces
 {
     public interface ITracer 
     {
