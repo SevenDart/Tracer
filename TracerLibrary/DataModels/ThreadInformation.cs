@@ -1,12 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace TracerLibrary.DataModels
 {
     public class ThreadInformation : ICloneable
     {
-        public int Id { get; init; }
+        [XmlAttribute]
+        public int Id { get; set; }
+        
+        [XmlAttribute]
         public TimeSpan Time { get; set; }
+        
+        [XmlArray]
         public List<MethodInformation> Methods { get; set; }
         public object Clone()
         {
