@@ -35,7 +35,7 @@ namespace SampleMultithreadProject
         {
             _tracer = new Tracer();
             MethodC();
-            var result2 = _tracer.GetTraceResult();
+            Console.WriteLine(new JsonSerializer().Serialize(_tracer.GetTraceResult()));
             MethodB();
             Thread thread = new Thread(MethodC);
             thread.Start();
