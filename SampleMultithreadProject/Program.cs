@@ -34,9 +34,11 @@ namespace SampleMultithreadProject
         static void Main(string[] args)
         {
             _tracer = new Tracer();
+            MethodC();
+            var result2 = _tracer.GetTraceResult();
+            MethodB();
             Thread thread = new Thread(MethodC);
             thread.Start();
-            MethodC();
             Thread.Sleep(1000);
             var result = _tracer.GetTraceResult();
         }

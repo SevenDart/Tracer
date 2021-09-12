@@ -3,8 +3,8 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
 using TracerLibrary.Interfaces;
-using TracerLibrary.Structs;
 using System.Threading;
+using TracerLibrary.DataModels;
 
 namespace TracerLibrary
 {
@@ -79,7 +79,10 @@ namespace TracerLibrary
 
         public TraceResult GetTraceResult()
         {
-            return _trace;
+            _mutex.WaitOne();
+            var result = (TraceResult)_trace.Clone();
+            _mutex.ReleaseMutex();
+            return result;
         }
     }
 }

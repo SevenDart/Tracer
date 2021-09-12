@@ -1,9 +1,20 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
-namespace TracerLibrary.Structs
+namespace TracerLibrary.DataModels
 {
-    public struct TraceResult
+    public struct TraceResult : ICloneable
     {
         public Dictionary<int, ThreadInformation> Threads { get; set; }
+        public object Clone()
+        {
+            var copy = (TraceResult)MemberwiseClone();
+            copy.Threads = new Dictionary<int, ThreadInformation>();
+            foreach (var (id, threadInformation) in Threads)
+            {
+                copy.Threads.Add(id, (ThreadInformation)threadInformation.Clone());
+            }
+            return copy;
+        }
     }
 }

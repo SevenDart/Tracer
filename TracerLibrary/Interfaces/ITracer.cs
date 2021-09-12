@@ -1,4 +1,4 @@
-﻿using TracerLibrary.Structs;
+﻿using TracerLibrary.DataModels;
 
 namespace TracerLibrary.Interfaces
 {
