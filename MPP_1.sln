@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracerLibrary", "TracerLibr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMultithreadProject", "SampleMultithreadProject\SampleMultithreadProject.csproj", "{8AB2A74C-75EC-4A6E-A9BE-1F6D088D2909}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracerLibrary.Tests", "TracerLibrary.Tests\TracerLibrary.Tests.csproj", "{6B7B106F-0210-4EAB-AF1B-F287F1D3A051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{8AB2A74C-75EC-4A6E-A9BE-1F6D088D2909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB2A74C-75EC-4A6E-A9BE-1F6D088D2909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB2A74C-75EC-4A6E-A9BE-1F6D088D2909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7B106F-0210-4EAB-AF1B-F287F1D3A051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7B106F-0210-4EAB-AF1B-F287F1D3A051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7B106F-0210-4EAB-AF1B-F287F1D3A051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7B106F-0210-4EAB-AF1B-F287F1D3A051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

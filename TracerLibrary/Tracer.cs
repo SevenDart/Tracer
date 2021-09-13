@@ -10,7 +10,7 @@ namespace TracerLibrary
 {
     public class Tracer : ITracer
     {
-        private Mutex _mutex = new();
+        private readonly Mutex _mutex = new();
         private class TrackedMethod
         {
             public Stopwatch Stopwatch;
